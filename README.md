@@ -15,6 +15,11 @@ A new Flutter project.
     - Get.toRemove("/login")
   - Dependency Manager -> Service/ServiceImpl -> Create Object
     - ProductService _productService = new ProductService();
-      - var productService = Get.find(ProductService())
+      - var productService = Get.find(ProductService());
+  - Module -> Login 
+    - Controller
+    - Binding
+    - View
+  - 
 - Bloc
 - LivePro
