@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomInputWidget extends StatelessWidget {
   String? hintText, label;
+
   TextEditingController? controller;
   CustomInputWidget({super.key, this.controller, this.label,this.hintText});
 
@@ -12,6 +13,7 @@ class CustomInputWidget extends StatelessWidget {
         vertical: 7,
       ),
       child: TextField(
+
         controller: controller,
         decoration: InputDecoration(
             border: OutlineInputBorder(
