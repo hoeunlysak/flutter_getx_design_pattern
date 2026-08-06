@@ -30,6 +30,7 @@ class LoginView extends GetView<LoginController> {
               ),
               CustomInputWidget(
                 controller: controller.passwordController,
+
                 label: "Password",
                 hintText: "Password",
               ),
